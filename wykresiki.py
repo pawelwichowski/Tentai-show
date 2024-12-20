@@ -344,9 +344,9 @@ def test_quality(board):
 if __name__ == "__main__":
     # ustawienia domyslne
     if len(sys.argv)==1:
-        n=80 #rozmiar
-        c=45 #ilość centrów
-        p=1000 #ilość prób
+        n=50 #rozmiar
+        c=20 #ilość centrów
+        p=20 #ilość prób
         
     elif len(sys.argv)!=4:
         print("Proszę podać 3 parametry: rozmiar, ilość centrów, ilość prób \n")
